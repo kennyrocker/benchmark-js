@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JS Benchmark</title>
+    <meta name="description" content="Js Benchmark">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JS Benchmark</h1>
+    <div class="input">
+        <div class="inputA">
+            <textarea name="" id="codeA" rows="13" placeholder="Code snippet A"></textarea>
+            <button onclick="run('codeA')">Execute</button>
+        </div>
+        <div class="inputB clear-float">
+            <textarea name="" id="codeB" rows="13" placeholder="Code snippet B"></textarea>
+            <button onclick="run('codeB')">Execute</button>
+        </div>
+    </div>
+    <div class="benchmarks">
+        <div class="error" id="errorA"></div>
+        <div id="benchmarkA">
+            <span class="title">Code Snippet A</span>
+            <div class="result">
+                <label for="inputARunTime">Run Time:</label>
+                <span id="inputARunTime"></span>
+                <br>
+                <label for="inputAMemory">Memory Usage:</label>
+                <span id="inputAMemory"></span>
+            </div>
+        </div>
+        <div class="error" id="errorB"></div>
+        <div id="benchmarkB">
+            <span class="title">Code Snippet B</span>
+            <div class="result">
+                <label for="inputBRunTime">Run Time:</label>
+                <span id="inputBRunTime"></span>
+                <br>
+                <label for="inputBMemory">Memory Usage:</label>
+                <span id="inputBMemory"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="signature">Crafted with &hearts; by Kennyrocker</div>
+        <div class="copy-right">&copy; 2021</div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

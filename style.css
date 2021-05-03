@@ -1,0 +1,136 @@
+html, body, div, span, textarea {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fafafa;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+}
+
+.input {
+    display: block;
+}
+
+.inputA,
+.inputB {
+    display: inline-block;
+    width: 100%;
+}
+
+textarea {
+    border-radius: 5px;
+    border-color: #989898;
+    width: 100%;
+    padding: 6px 10px;
+    resize: vertical;
+    color: #666;
+}
+
+::placeholder {
+    color: #999;
+}
+
+button {
+    min-width: 250px;
+    padding: 9px 25px;
+    border-radius: 5px;
+    background-color: #215d07;
+    border: 0 none;
+    color: #fff;
+    font-weight: lighter;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #133b03;
+    cursor: pointer;
+}
+
+.benchmarks {
+    display: block;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.benchmarks .title {
+    color: #666;
+    padding: 8px;
+}
+
+.result label {
+    color: #333;
+    padding: 8px 0 8px 8px;
+}
+
+.result span {
+    color: #222;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+#benchmarkA,
+#benchmarkB {
+    width: 100%;
+}
+
+.error {
+    margin-left: 12px;
+    color: #3e0101;
+    padding: 8px 0;
+}
+
+
+.footer {
+    margin-top: 350px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    clear: both;
+}
+
+.signature {
+    text-align: center;
+    padding-top: 36px;
+    color: #888;
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.copy-right {
+    text-align: center;
+    padding: 6px 0  24px;
+    color: #999;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+@media only screen and (min-width: 1440px) {
+    .inputA,
+    .inputB,
+    #benchmarkA,
+    #benchmarkB {
+        padding-left: 10px;
+        box-sizing: border-box;
+        display: inline-block;
+        width: 49%;
+    }
+}
+
+#benchmarkA,
+#benchmarkB,
+#errorA,
+#errorB {
+    display: none;
+}
