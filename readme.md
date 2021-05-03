@@ -1,6 +1,6 @@
 ## Benchmark JS
 
-###*JavaScript Run Time and Memory Usage Online Tool*
+###JavaScript Run Time and Memory Usage Online Tool
 
 ### How to Use:
 1. copy and paste javascript code into textarea
